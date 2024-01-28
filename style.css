@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2e2e2e;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #474747;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+    text-align: center;
+    color: white;
+  }
+  
+  h1 {
+    color: #ffa500;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+  }
+  
+  input {
+    width: 94%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ffa500;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #ffa500;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #b37400;
+  }
+  
+  #musica {
+    margin-top: 20px;
+    font-weight: bold;
+  }
